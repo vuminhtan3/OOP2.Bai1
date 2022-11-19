@@ -7,17 +7,16 @@ public class Main {
         noiCong.setMoTa("Mô tả something về Nội công :))))");
 
         KyNang ngoaiCong = new NgoaiCong();
-        ngoaiCong.setTenKyNang("Vịnh Xuân Quyền");
+        ngoaiCong.setTenKyNang("Ngoại công");
         ngoaiCong.setSatThuong(500);
-        ngoaiCong.setThuocTinh("Thuộc tính của Vịnh Xuân Quyền");
-        ngoaiCong.setMoTa("là một môn võ thuật có nguồn gốc từ Nam Thiếu Lâm tại tỉnh Phúc Kiến, Trung Quốc.");
+        ngoaiCong.setThuocTinh("Thuộc tính của Ngoại Công");
+        ngoaiCong.setMoTa("Mô tả abc");
 
         KyNang kyNangLuyen = new KyNang();
         kyNangLuyen.setTenKyNang("Kỹ Năng luyện vũ khí");
         kyNangLuyen.setSatThuong(0);
         kyNangLuyen.setThuocTinh("Luyện vũ khí");
         kyNangLuyen.setMoTa("Luyện Vũ khí");
-        kyNangLuyen.toString();
 
         ThieuLam thieuLam = new ThieuLam();
         thieuLam.setTenMonPhai("Vịnh Xuân Quyền");
@@ -30,6 +29,8 @@ public class Main {
         thieuLam.anUong("Cơm","trưa","HongKong");
         thieuLam.luyenCong("Thiếu lâm côn pháp", kyNangLuyen);
         thieuLam.inTTMonPhai();
+        thieuLam.tungKinh();
+
         // Cái Bang:
         CaiBang caiBang = new CaiBang();
         caiBang.setTenMonPhai("Cái Bang");
